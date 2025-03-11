@@ -1,3 +1,4 @@
+    // Problem #1
 public class CollegeStudent extends Student {
     // Instance variables
     protected String myMajor;    // e.g., "Electrical Engineering", "Communications", "Undeclared"

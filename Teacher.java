@@ -1,3 +1,4 @@
+    // Problem #1
 public class Teacher extends Person {
     // Instance variables
     protected double mySalary;    // Teacher's annual salary
