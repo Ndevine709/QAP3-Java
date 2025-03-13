@@ -8,13 +8,13 @@ public abstract class Shape {
         this.name = name;
     }
     
-    public String getName() {
-        return name;
-    }
-    
-    // Setter and abstract getters
+    // Setter and abstract getters for area and perimeter
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getName() {
+        return name;
     }
     
     public abstract double getArea();
