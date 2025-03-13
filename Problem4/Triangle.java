@@ -40,4 +40,12 @@ public class Triangle extends Shape {
     public double getPerimeter() {
         return side1 + side2 + side3;
     }
+
+    @Override
+    public void scale(double factor) {
+        // Scale all sides by the factor
+        side1 *= factor;
+        side2 *= factor;
+        side3 *= factor;
+    }
 }

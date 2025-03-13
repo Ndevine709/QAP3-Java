@@ -1,5 +1,5 @@
 // Problem #4
-public abstract class Shape {
+public abstract class Shape implements Scalable {
     // Instance variable for the shape name
     private String name;
     
@@ -19,9 +19,7 @@ public abstract class Shape {
     
     public abstract double getArea();
     
-    
     public abstract double getPerimeter();
-    
     
     @Override
     public String toString() {

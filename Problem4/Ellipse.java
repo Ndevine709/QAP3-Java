@@ -1,5 +1,5 @@
 // Problem #4
-public class Ellipse extends Shape {
+public class Ellipse extends Shape  {
     // Instance variables for major (a) and minor (b) axes
     private double a;  
     private double b;  
@@ -34,5 +34,12 @@ public class Ellipse extends Shape {
     @Override
     public double getPerimeter() {
         return Math.PI * (3 * (a + b) - Math.sqrt((3 * a + b) * (a + 3 * b)));
+    }
+
+    @Override
+    public void scale(double factor) {
+        // Scale both axes by the factor
+        a *= factor;
+        b *= factor;
     }
 }
