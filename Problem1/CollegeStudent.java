@@ -1,8 +1,8 @@
     // Problem #1
 public class CollegeStudent extends Student {
     // Instance variables
-    protected String myMajor;    // e.g., "Electrical Engineering", "Communications", "Undeclared"
-    protected int myYear;        // year level (e.g., FROSH = 1, SOPH = 2, ...)
+    protected String myMajor;    
+    protected int myYear;        
 
     public CollegeStudent(String name, int age, String gender, String idNum, double gpa, int year, String major) {
         super(name, age, gender, idNum, gpa);

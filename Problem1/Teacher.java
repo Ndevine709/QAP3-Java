@@ -1,8 +1,8 @@
     // Problem #1
 public class Teacher extends Person {
     // Instance variables
-    protected double mySalary;    // Teacher's annual salary
-    protected String mySubject;   // Subject taught (e.g., "Computer Science", "Chemistry", etc.)
+    protected double mySalary;    
+    protected String mySubject;   
 
     public Teacher(String name, int age, String gender, String subject, double salary) {
         super(name, age, gender);
